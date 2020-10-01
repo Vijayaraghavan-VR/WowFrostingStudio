@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+@font-face {
+    font-family: signature;
+    src: url("../fonts/Photograph Signature.ttf") format("opentype");
+  }
+  
+*{
+    box-sizing: border-box;
+  }
+  body{
+    margin:0;
+    padding:0;
+    font-family: 'signature', sans-serif;
+    background: radial-gradient(#525252,#131313)
+  
+  }
+  .header{
+    height: 260px;
+    padding: 20px;
+    text-align: center;
+    background: radial-gradient(aqua);
+    font-size:30px;
+    font-weight:5000px;
+    color:rgb(201, 194, 192);
+  
+  }
+  .header p {
+      margin-top: 2px;
+      font-family: 'Peddana', serif;
+  }
+  .foot{
+    height: 140px;
+    background: radial-gradient(#525252,#131313);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 10px;
+    color:rgb(201, 194, 192);
+  }
+  .foot footer{
+    padding:10px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column{
+    flex:25%;
+  }
+  .column img{
+    width:100%;
+    padding:4px;
+    vertical-align: middle;
+  
+  }
+  @media(max-width:1200px){
+    .column{
+      flex:33.33%;
+    }
+  }
+  
+  @media(max-width:950px){
+    h1,p{
+      font-size:28px;
+      font-weight:20px;
+      text-align: center;
+    }
+    .header{
+      height: 180px;
+      padding: 15px;
+    }
+    .column{
+      flex:50%;
+    }
+    .foot{
+      height:100px;
+      font-size: 15px;
+      font-weight:9px;
+    }
+  }
+  @media(max-width:600px){
+    h1,p{
+      font-size:20px;
+      font-weight:15px;
+      text-align: center;
+    }
+    .header{
+      height: 120px;
+      padding: 15px;
+    }
+    .column{
+      flex:100%;
+    }
+  }
+  .bottom-container{
+    background-color: #C0C0C0;
+    height: 30px;
+    margin: 0 0 0 0;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+  }
+  .footer-link{
+    margin-right: 30px;
+    margin-bottom: 5px;
+    text-decoration:none;
+    color: #000000;
+  }
+  .copyrights{
+    margin-top: 20px;
+    text-align: center;
+    color: #000000;
+    font-size: 0.75rem;
+    margin-right: 30px;
+  }
+
+  .z{
+    height: 20px;
+    width: 20px;
+  }
+  .b{
+    height: 20px;
+    width: 20px;
+  }
+  .c{
+    height: 20px;
+    width: 20px;
+  }
+  .d{
+    height: 20px;
+    width: 20px;
+  }
+  .w {
+    height: 20px;
+    width: 20px;
+  }
+  
